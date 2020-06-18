@@ -1,0 +1,34 @@
+$orange: #f1502f;
+$bronze: #3e2c00;
+.search-loading {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.show {
+    display: inline-block;
+}
+
+.hide {
+    display: none;
+}
+
+.nav-link-container {
+    margin: 20px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-link {
+    color: $bronze;
+    text-decoration: none;
+    border: 1px solid $bronze;
+    padding: 10px 20px;
+    margin-right: 10px;
+    &:hover {
+        color: #FFF;
+        background: #998962;
+    }
+}
