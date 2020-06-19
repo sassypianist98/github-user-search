@@ -8,8 +8,7 @@ Use the package manager [npm](https://www.npmjs.com/get-npm) to install GitHub U
 
 1. Clone this repo.
 2. Run `npm install`
-3. Run `npm build`
-4. Setup .env file with your own personal GitHub OAUTH2 token and username:
+3. Setup .env file with your own personal GitHub OAUTH2 token and username:
 
 ```bash
 REACT_APP_GITHUB_API_TOKEN=YOUR_APITOKEN
